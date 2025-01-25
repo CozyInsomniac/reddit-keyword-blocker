@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/1.0.0/css/bulma.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <style>
+    body {
+      width: 440px;
+    }
+    .container {
+      padding: 30px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <h1 class="title">Reddit Keyword Blocker</h1>
+    <div class="field has-addons">
+      <div class="control is-expanded">
+        <input id="keyword" class="input" type="text" placeholder="Add keyword">
+      </div>
+      <div class="control">
+        <button id="addKeyword" class="button is-primary">Add</button>
+      </div>
+    </div>
+    <div class="content pt-4 pb-4">
+      <h2 class="subtitle">Blocked Keywords</h2>
+      <div id="keywordsList" class="columns is-multiline"></div>
+    </div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+
+</html>

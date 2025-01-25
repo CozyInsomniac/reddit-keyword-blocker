@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "Reddit Keyword Blocker",
+  "version": "1.0",
+  "description": "Hides Reddit posts containing certain keywords.",
+  "permissions": ["scripting", "storage"],
+  "host_permissions": ["https://www.reddit.com/*", "https://reddit.com/*", "https://old.reddit.com/*", "https://new.reddit.com/*"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://www.reddit.com/*", "https://reddit.com/*", "https://old.reddit.com/*", "https://new.reddit.com/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    }
+  }
+}
