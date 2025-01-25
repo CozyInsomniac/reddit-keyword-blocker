@@ -23,3 +23,5 @@ Block Reddit posts containing specific keywords, for both the new and old Reddit
 - Matches keywords **exactly** (case insensitive).
 
 Enjoy a cleaner Reddit experience!
+
+Download: https://github.com/recycledrobot/reddit-keyword-blocker/archive/main.zip
