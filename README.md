@@ -1,16 +1,18 @@
 # Reddit Keyword Blocker
 
-Block Reddit posts containing specific keywords, for both the new and old Reddit layouts.
+Browser Extension for Chromium-based browsers to block Reddit posts containing specific keywords, for both the new and old Reddit layouts.
 
 ## Features
 - Add keywords to block posts with specific titles.
 - Manage keywords directly from the extension's popup.
+- Works with both old and new Reddit layouts.
+- Case-insensitive keyword matching.
 
 ## Installation
-1. Download the extension files.
-2. Open Chrome and go to `chrome://extensions/`.
-3. Enable **Developer Mode** (toggle in the top-right corner).
-4. Click **Load Unpacked** and select the folder containing the extension files.
+1. Download the extension files from [here](https://github.com/CozyInsomniac/reddit-keyword-blocker/archive/refs/heads/main.zip) and unzip them into their own folder.
+2. Open your browser and go to its extensions page (Ex. `chrome://extensions/`).
+3. Enable `Developer Mode` (toggle in the top-right corner).
+4. Click `Load Unpacked`, and select the folder containing the extension files.
 5. The extension should now be installed and ready to use.
 
 ## Usage
@@ -19,9 +21,5 @@ Block Reddit posts containing specific keywords, for both the new and old Reddit
 3. Keywords can be removed from the list at any time.
 
 ## Notes
-- Works with both old and new Reddit layouts.
-- Matches keywords **exactly** (case insensitive).
+- Keywords are matched **exactly**.
 
-Enjoy a cleaner Reddit experience!
-
-Download: https://github.com/recycledrobot/reddit-keyword-blocker/archive/main.zip
