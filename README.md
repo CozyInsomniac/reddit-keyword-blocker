@@ -23,3 +23,5 @@ Browser Extension for Chromium-based browsers to block Reddit posts containing s
 ## Notes
 - Keywords are matched **exactly**.
 
+## ToDo
+- Support the Reddit search tab
